@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2? família= Sarala & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    font-size: 100%;
+    background: linear-gradient(to bottom, #F8BBD0, #D980FA);;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 32px;
+
+}
+
+.cabecalho-menu-pagina {
+    font-family: 'Sarala', sans-serif;
+    color: #4e4e44;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #FFF2E7;
+            
+}
+
+.conteudo-principal {
+    display:;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-end;
+}
+
+
+.conteudo-principal-escrito {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+    
+}
+.conteudo-principal-escrito-titulo {
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 64px;
+    color: #4e4e44;
+}
+        
+.conteudo-principal-escrito-subtitulo {
+    font-family:'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4e4e44;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra em cinza */
+}
+
+    .conteudo-principal-escrito-botão{
+        background-color: #F5BB1C;
+        width: 650px;
+        height: 40px;
+        border: none;
+        box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 15px;
+        font-family:'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #4e4e44;
+    }
+
+    .conteudo-principal-escrito-botão:hover {
+        background-color: rgba(225, 228, 74, 0.53); 
+    }
+
+    .conteudo-principal-imagem {
+        height: 330px;
+        border-radius: 15px;
+        box-shadow: 4px 5px 4px rgba(12, 12, 12, 0.25);
+        border-radius: 15px;
+    }     
+
+
+
+    .conteudo-principal-imagem {
+        height: 330px;
+        border-radius: 15px;
+        box-shadow: 4px 5px 4px rgba(12, 12, 12, 0.25);
+        border-radius: 15px;
+    }     
+
+    .conteudo-principal-secundario-paragrafo {
+        display: flex;
+        flex-direction: row;
+        align-items: justify;
+        gap: 10px;
+        line-height: 2.0;
+        margin-left: 100px;
+        font-family:'Sarala', sans-serif;
+        color: #4e4e44;
+
+    }
+
+    .conteudo-secundario-imagem {
+        height: 330px;
+        border-radius: 15px;
+        box-shadow: 4px 5px 4px rgba(12, 12, 12, 0.25);
+        border-radius: 15px;
+
+
+    }
+    
+    .conteudo-secundario-mapa {
+        float: left;
+
+    }
+    .conteudo-secundario-texto-mapa {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 10px;
+        line-height: 2.0;
+        margin-left: 100px;
+        font-family:'Sarala', sans-serif;
+        color: #4e4e44;
+
+    }
+
+    .conteudo-rodape {
+        background: linear-gradient(to bottom, #F8BBD0, #D980FA);
+        text-align: center;
+        font-family:'Sarala', sans-serif;
+        color: #4e4e44;
+    }
+
+
+
